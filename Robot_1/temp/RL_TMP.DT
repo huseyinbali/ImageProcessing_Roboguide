@@ -1,0 +1,17 @@
+tb_cart 1           -- cartesian 1. cycle priority 2. path priority
+tb_jnt 1            -- joint 1. cycle priority 2. path priority
+!MME>flange_type 1  -- Generated Automatically
+angle 0             -- mount angle
+payload 8           -- max payload
+mech 1              -- 0.ARC Mate 100iC/8L, 1.M-10iA/8L
+!MME>robot_type 1   -- Robot type 1.M-10iA/8L(3kg),2.M-10iA/8L(8kg)
+!MME>cable_type 1   -- cable dress-out type setting
+!MME>j1_range 1     -- J1 Range setting
+torch 0             -- torch type for ROBOWELD iC
+torch2 0            -- torch type for FRONIUS
+sv_torch 0          -- servo torch type
+flange_type 1 -- Generated Automatically
+robot_type 2 -- Generated Automatically
+cable_type 1 -- Generated Automatically
+j1_range 2 -- Generated Automatically
+ENDOFL              -- end of the file

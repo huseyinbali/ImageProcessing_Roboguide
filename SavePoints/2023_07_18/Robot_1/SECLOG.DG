@@ -1,0 +1,19 @@
+Security Log for F00000     at 18-JUL-23 23:18:08 
+
+18-JUL-23 17:51 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:09 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:10 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:11 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:11 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:12 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:13 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:13 SEC -005 FSAC RPC  allow connect 169.254.54.120
+18-JUL-23 23:17 SEC -005 FSAC RPC  allow connect 169.254.54.120
+
+
+MAIN Security Log Filter:
+18-JUL-23 23:09:40  Task: MCPR logged error: SEC -005 occurred 10 times in 185.766998 seconds from 169.254.54.120
+
+
+COMM Security Log Filter:
+18-JUL-23 23:09:40  Task: MCPR logged error: SEC -005 occurred 10 times in 185.766998 seconds from 169.254.54.120

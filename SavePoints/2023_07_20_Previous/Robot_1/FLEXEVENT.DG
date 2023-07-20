@@ -1,0 +1,26 @@
+Func       Date      Time    Tick       NavID              Text
+POWR  72 18-JUL-23 17:51:04   41D Power Cycle 
+POWR  72 18-JUL-23 17:58:50   41D Power Cycle 
+POWR  72 18-JUL-23 21:52:06   41C Power Cycle 
+KEY   72 18-JUL-23 21:58:30  D86E /wizard/guided/steps Initial Setup
+KEY   72 18-JUL-23 21:58:32  E3E3 /wizard/guided/steps Initial Setup
+EXIT  72 18-JUL-23 21:58:32  E3E3 1631 1 
+KEY   72 18-JUL-23 21:58:32  E45B /wizard/guided/steps Initial Setup
+NOTE  72 18-JUL-23 21:58:34  E84B <b>WARNING:</b><br/>Unsafe operation of the robot could injure personnel or damage equipment. 
+KEY   72 18-JUL-23 21:58:34  E84B /wizard/guided/safety Safety Considerations
+NAV  150 18-JUL-23 21:58:34  E8BB /wizard/guided/steps/Safety 
+KEY   72 18-JUL-23 21:58:34  E8BB /wizard/guided/safety Safety Considerations
+KEY   72 18-JUL-23 21:58:34  E9B5 /wizard/guided/steps Initial Setup
+KEY   72 18-JUL-23 21:58:34  EAEB /wizard/guided/steps Initial Setup
+NAV  150 18-JUL-23 21:58:34  EAF9 /wizard/guided/steps/Expert 
+KEY   72 18-JUL-23 21:58:34  EBF3 /wizard/guided/steps Initial Setup
+NAV  150 18-JUL-23 21:58:36  F0BC /wizard/guided/usertype/Expert 
+KEY   72 18-JUL-23 21:58:36  F0BC /wizard/guided/steps Initial Setup
+KEY   72 18-JUL-23 21:58:36  F1B6 /wizard/guided/steps Initial Setup
+KEY   72 18-JUL-23 21:58:36  F373 /nav/core/home HOME
+KEY   72 18-JUL-23 21:58:52  32D3 /nav/core/home HOME
+EXIT  72 18-JUL-23 21:58:52  32D3 154 1 
+POWR  72 18-JUL-23 22:00:06   41E Power Cycle 
+POWR  72 18-JUL-23 22:00:30   41C Power Cycle 
+POWR  72 18-JUL-23 23:46:20   41C Power Cycle 
+POWR  72 20-JUL-23 02:57:10   41C Power Cycle 

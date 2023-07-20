@@ -1,0 +1,73 @@
+{* -*-coding:chinese-gbk-*-}
+{Basic}
+
+[PROGRAM]
+NAME = "IRVSNAP"
+ARGUMENT = '3'
+[ARGUMENT]
+S01 = "Vision Process"
+N02 = "Camera View":'1'
+N03 = "Image Reg.":'1'
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME = "IRVFIND"
+ARGUMENT = '3'
+[ARGUMENT]
+S01 = "Vision Process"
+N02 = "Camera View":'1'
+N03 = "Image Reg.":'1'
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVCALDATA"
+ARGUMENT='4'
+[ARGUMENT]
+S01="数据名称"
+V02="相机坐标系":'1', 
+    "激光坐标系":'2'
+N03="输出 PR"
+N04="状态 R"
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVSAVIR"
+ARGUMENT='3'
+[ARGUMENT]
+N01="Image Reg.":'1'
+S02="Output Path"
+N03="Status Reg."
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVLODIR"
+ARGUMENT='2'
+[ARGUMENT]
+N01="Image Reg.":'1'
+S02="Input Path"
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVOUT3DMAP"
+ARGUMENT='4'
+[ARGUMENT]
+S01="Sensor Name"
+S02="Output Path"
+N03="2D Exposure Time[ms]"
+N04="Merge Flag"
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVSTSNAP"
+ARGUMENT='2'
+[ARGUMENT]
+S01="Vision Process"
+N02 = "Camera View":'1'
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVSTRUNFIND"
+ARGUMENT='1'
+[ARGUMENT]
+S01="Vision Process"
+[ENDPROGRAM]

@@ -1,0 +1,73 @@
+{* -*-coding:shift_jis-*-}
+{Basic}
+
+[PROGRAM]
+NAME = "IRVSNAP"
+ARGUMENT = '3'
+[ARGUMENT]
+S01 = "ﾋﾞｼﾞｮﾝﾌﾟﾛｸﾞﾗﾑ名"
+N02 = "ｶﾒﾗﾋﾞｭｰ番号":'1'
+N03 = "画像ﾚｼﾞｽﾀ番号":'1'
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME = "IRVFIND"
+ARGUMENT = '3'
+[ARGUMENT]
+S01 = "ﾋﾞｼﾞｮﾝﾌﾟﾛｸﾞﾗﾑ名"
+N02 = "ｶﾒﾗﾋﾞｭｰ番号":'1'
+N03 = "画像ﾚｼﾞｽﾀ番号":'1'
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVCALDATA"
+ARGUMENT='4'
+[ARGUMENT]
+S01="ﾃﾞｰﾀ名"
+V02="ｶﾒﾗ座標系":'1', 
+    "ﾚｰｻﾞ座標系":'2'
+N03="出力位置ﾚｼﾞｽﾀ"
+N04="ｽﾃｰﾀｽ ﾚｼﾞｽﾀ番号"
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVSAVIR"
+ARGUMENT='3'
+[ARGUMENT]
+N01="画像ﾚｼﾞｽﾀ番号":'1'
+S02="出力ﾌｧｲﾙのﾊﾟｽ"
+N03="ｽﾃｰﾀｽ ﾚｼﾞｽﾀ番号"
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVLODIR"
+ARGUMENT='2'
+[ARGUMENT]
+N01="画像ﾚｼﾞｽﾀ番号":'1'
+S02="入力ﾌｧｲﾙのﾊﾟｽ"
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVOUT3DMAP"
+ARGUMENT='4'
+[ARGUMENT]
+S01="ﾊﾞﾗ積みｾﾝｻ名"
+S02="保存先"
+N03="露光時間[ms]"
+N04 ="ﾏｰｼﾞﾌﾗｸﾞ" 
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVSTSNAP"
+ARGUMENT='2'
+[ARGUMENT]
+S01="ﾋﾞｼﾞｮﾝﾌﾟﾛｸﾞﾗﾑ名"
+N02 = "ｶﾒﾗﾋﾞｭｰ番号":'1'
+[ENDPROGRAM]
+
+[PROGRAM]
+NAME="IRVSTRUNFIND"
+ARGUMENT='1'
+[ARGUMENT]
+S01="ﾋﾞｼﾞｮﾝﾌﾟﾛｸﾞﾗﾑ名"
+[ENDPROGRAM]
